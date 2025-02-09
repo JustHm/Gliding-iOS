@@ -18,6 +18,8 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        
+        let coordinator = TabBarCoordinator(navigationController: navigationController)
+        childCoordinators.append(coordinator)
+        coordinator.start()
     }
 }

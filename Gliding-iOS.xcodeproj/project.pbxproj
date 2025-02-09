@@ -12,6 +12,15 @@
 		225201032D58B6BF0008E597 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 225201022D58B6BF0008E597 /* RxCocoa */; };
 		225201052D58B6BF0008E597 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 225201042D58B6BF0008E597 /* RxRelay */; };
 		225201072D58B6BF0008E597 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 225201062D58B6BF0008E597 /* RxSwift */; };
+		2252010A2D58C3FC0008E597 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201092D58C3FC0008E597 /* TabBarController.swift */; };
+		2252010C2D58C42C0008E597 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252010B2D58C42C0008E597 /* TabBarCoordinator.swift */; };
+		2252010F2D58D8480008E597 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252010E2D58D8480008E597 /* HomeCoordinator.swift */; };
+		225201112D58DDDE0008E597 /* PlanCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201102D58DDDE0008E597 /* PlanCoordinator.swift */; };
+		225201132D58ED350008E597 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201122D58ED350008E597 /* HomeViewController.swift */; };
+		225201152D58ED3D0008E597 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201142D58ED3D0008E597 /* PlanViewController.swift */; };
+		225201192D58EEAA0008E597 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201182D58EEAA0008E597 /* HomeViewModel.swift */; };
+		2252011B2D58EEBC0008E597 /* PlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252011A2D58EEBC0008E597 /* PlanViewModel.swift */; };
+		2252011D2D58EF820008E597 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252011C2D58EF820008E597 /* ViewModel.swift */; };
 		22C9D3172D54760E00CF21A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D30D2D54760E00CF21A2 /* Assets.xcassets */; };
 		22C9D3182D54760E00CF21A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D30F2D54760E00CF21A2 /* LaunchScreen.storyboard */; };
 		22C9D31A2D54760E00CF21A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3072D54760E00CF21A2 /* AppDelegate.swift */; };
@@ -24,6 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225201092D58C3FC0008E597 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2252010B2D58C42C0008E597 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		2252010E2D58D8480008E597 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		225201102D58DDDE0008E597 /* PlanCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCoordinator.swift; sourceTree = "<group>"; };
+		225201122D58ED350008E597 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		225201142D58ED3D0008E597 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		225201182D58EEAA0008E597 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2252011A2D58EEBC0008E597 /* PlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewModel.swift; sourceTree = "<group>"; };
+		2252011C2D58EF820008E597 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		22C9D2E42D5472F400CF21A2 /* Gliding-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gliding-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C9D3072D54760E00CF21A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C9D3082D54760E00CF21A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +72,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2252010D2D58D82C0008E597 /* TabCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2252010B2D58C42C0008E597 /* TabBarCoordinator.swift */,
+				2252010E2D58D8480008E597 /* HomeCoordinator.swift */,
+				225201102D58DDDE0008E597 /* PlanCoordinator.swift */,
+			);
+			path = TabCoordinator;
+			sourceTree = "<group>";
+		};
+		225201162D58EE490008E597 /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				225201142D58ED3D0008E597 /* PlanViewController.swift */,
+				2252011A2D58EEBC0008E597 /* PlanViewModel.swift */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		225201172D58EE520008E597 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				225201122D58ED350008E597 /* HomeViewController.swift */,
+				225201182D58EEAA0008E597 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		22C9D2DB2D5472F400CF21A2 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				22C9D30B2D54760E00CF21A2 /* ViewController.swift */,
+				2252011C2D58EF820008E597 /* ViewModel.swift */,
+				225201092D58C3FC0008E597 /* TabBarController.swift */,
+				225201172D58EE520008E597 /* Home */,
+				225201162D58EE490008E597 /* Plan */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -117,8 +167,8 @@
 		22C9D3152D54760E00CF21A2 /* Gliding-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				22C9D3222D547EA100CF21A2 /* Coordinators */,
 				22C9D3092D54760E00CF21A2 /* Apps */,
+				22C9D3222D547EA100CF21A2 /* Coordinators */,
 				22C9D30C2D54760E00CF21A2 /* Presentation */,
 				22C9D3102D54760E00CF21A2 /* Resources */,
 				22C9D3142D54760E00CF21A2 /* SupportFiles */,
@@ -132,6 +182,7 @@
 			children = (
 				22C9D3202D547E6F00CF21A2 /* Coordinator.swift */,
 				22C9D3252D54BF5600CF21A2 /* AppCoordinator.swift */,
+				2252010D2D58D82C0008E597 /* TabCoordinator */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -219,12 +270,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C9D31A2D54760E00CF21A2 /* AppDelegate.swift in Sources */,
+				2252010A2D58C3FC0008E597 /* TabBarController.swift in Sources */,
 				22C9D31B2D54760E00CF21A2 /* SceneDelegate.swift in Sources */,
 				22C9D3212D547E6F00CF21A2 /* Coordinator.swift in Sources */,
 				22C9D31C2D54760E00CF21A2 /* ViewController.swift in Sources */,
+				225201112D58DDDE0008E597 /* PlanCoordinator.swift in Sources */,
+				2252011D2D58EF820008E597 /* ViewModel.swift in Sources */,
+				2252010C2D58C42C0008E597 /* TabBarCoordinator.swift in Sources */,
 				22C9D31D2D54760E00CF21A2 /* Gliding_iOS.xcdatamodeld in Sources */,
+				2252010F2D58D8480008E597 /* HomeCoordinator.swift in Sources */,
+				225201192D58EEAA0008E597 /* HomeViewModel.swift in Sources */,
+				225201152D58ED3D0008E597 /* PlanViewController.swift in Sources */,
 				22C9D31F2D54763000CF21A2 /* UIViewController+.swift in Sources */,
 				22C9D3262D54BF5600CF21A2 /* AppCoordinator.swift in Sources */,
+				225201132D58ED350008E597 /* HomeViewController.swift in Sources */,
+				2252011B2D58EEBC0008E597 /* PlanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
