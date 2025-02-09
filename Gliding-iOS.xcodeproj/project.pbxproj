@@ -6,36 +6,48 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		225200FE2D58B63F0008E597 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 225200FD2D58B63F0008E597 /* SnapKit */; };
+		225201002D58B63F0008E597 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 225200FF2D58B63F0008E597 /* SnapKit-Dynamic */; };
+		225201032D58B6BF0008E597 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 225201022D58B6BF0008E597 /* RxCocoa */; };
+		225201052D58B6BF0008E597 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 225201042D58B6BF0008E597 /* RxRelay */; };
+		225201072D58B6BF0008E597 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 225201062D58B6BF0008E597 /* RxSwift */; };
+		22C9D3172D54760E00CF21A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D30D2D54760E00CF21A2 /* Assets.xcassets */; };
+		22C9D3182D54760E00CF21A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D30F2D54760E00CF21A2 /* LaunchScreen.storyboard */; };
+		22C9D31A2D54760E00CF21A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3072D54760E00CF21A2 /* AppDelegate.swift */; };
+		22C9D31B2D54760E00CF21A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3082D54760E00CF21A2 /* SceneDelegate.swift */; };
+		22C9D31C2D54760E00CF21A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D30B2D54760E00CF21A2 /* ViewController.swift */; };
+		22C9D31D2D54760E00CF21A2 /* Gliding_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3122D54760E00CF21A2 /* Gliding_iOS.xcdatamodeld */; };
+		22C9D31F2D54763000CF21A2 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D31E2D54763000CF21A2 /* UIViewController+.swift */; };
+		22C9D3212D547E6F00CF21A2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3202D547E6F00CF21A2 /* Coordinator.swift */; };
+		22C9D3262D54BF5600CF21A2 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3252D54BF5600CF21A2 /* AppCoordinator.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		22C9D2E42D5472F400CF21A2 /* Gliding-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gliding-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C9D3072D54760E00CF21A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22C9D3082D54760E00CF21A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22C9D30B2D54760E00CF21A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22C9D30D2D54760E00CF21A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C9D30E2D54760E00CF21A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22C9D3112D54760E00CF21A2 /* Gliding_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gliding_iOS.entitlements; sourceTree = "<group>"; };
+		22C9D3132D54760E00CF21A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C9D3162D54760E00CF21A2 /* Gliding_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gliding_iOS.xcdatamodel; sourceTree = "<group>"; };
+		22C9D31E2D54763000CF21A2 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		22C9D3202D547E6F00CF21A2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		22C9D3252D54BF5600CF21A2 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		22C9D2FA2D5472F600CF21A2 /* Exceptions for "Gliding-iOS" folder in "Gliding-iOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 22C9D2E32D5472F400CF21A2 /* Gliding-iOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		22C9D2E62D5472F400CF21A2 /* Gliding-iOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				22C9D2FA2D5472F600CF21A2 /* Exceptions for "Gliding-iOS" folder in "Gliding-iOS" target */,
-			);
-			path = "Gliding-iOS";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22C9D2E12D5472F400CF21A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225201032D58B6BF0008E597 /* RxCocoa in Frameworks */,
+				225200FE2D58B63F0008E597 /* SnapKit in Frameworks */,
+				225201072D58B6BF0008E597 /* RxSwift in Frameworks */,
+				225201052D58B6BF0008E597 /* RxRelay in Frameworks */,
+				225201002D58B63F0008E597 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +57,7 @@
 		22C9D2DB2D5472F400CF21A2 = {
 			isa = PBXGroup;
 			children = (
-				22C9D2E62D5472F400CF21A2 /* Gliding-iOS */,
+				22C9D3152D54760E00CF21A2 /* Gliding-iOS */,
 				22C9D2E52D5472F400CF21A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +68,72 @@
 				22C9D2E42D5472F400CF21A2 /* Gliding-iOS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		22C9D3092D54760E00CF21A2 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D3072D54760E00CF21A2 /* AppDelegate.swift */,
+				22C9D3082D54760E00CF21A2 /* SceneDelegate.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		22C9D30A2D54760E00CF21A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D31E2D54763000CF21A2 /* UIViewController+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22C9D30C2D54760E00CF21A2 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D30B2D54760E00CF21A2 /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		22C9D3102D54760E00CF21A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D30D2D54760E00CF21A2 /* Assets.xcassets */,
+				22C9D30F2D54760E00CF21A2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22C9D3142D54760E00CF21A2 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D3112D54760E00CF21A2 /* Gliding_iOS.entitlements */,
+				22C9D3122D54760E00CF21A2 /* Gliding_iOS.xcdatamodeld */,
+				22C9D3132D54760E00CF21A2 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		22C9D3152D54760E00CF21A2 /* Gliding-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D3222D547EA100CF21A2 /* Coordinators */,
+				22C9D3092D54760E00CF21A2 /* Apps */,
+				22C9D30C2D54760E00CF21A2 /* Presentation */,
+				22C9D3102D54760E00CF21A2 /* Resources */,
+				22C9D3142D54760E00CF21A2 /* SupportFiles */,
+				22C9D30A2D54760E00CF21A2 /* Extensions */,
+			);
+			path = "Gliding-iOS";
+			sourceTree = "<group>";
+		};
+		22C9D3222D547EA100CF21A2 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				22C9D3202D547E6F00CF21A2 /* Coordinator.swift */,
+				22C9D3252D54BF5600CF21A2 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +151,13 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				22C9D2E62D5472F400CF21A2 /* Gliding-iOS */,
-			);
 			name = "Gliding-iOS";
 			packageProductDependencies = (
+				225200FD2D58B63F0008E597 /* SnapKit */,
+				225200FF2D58B63F0008E597 /* SnapKit-Dynamic */,
+				225201022D58B6BF0008E597 /* RxCocoa */,
+				225201042D58B6BF0008E597 /* RxRelay */,
+				225201062D58B6BF0008E597 /* RxSwift */,
 			);
 			productName = "Gliding-iOS";
 			productReference = 22C9D2E42D5472F400CF21A2 /* Gliding-iOS.app */;
@@ -107,6 +187,10 @@
 			);
 			mainGroup = 22C9D2DB2D5472F400CF21A2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				225200FC2D58B63F0008E597 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				225201012D58B6BF0008E597 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 22C9D2E52D5472F400CF21A2 /* Products */;
 			projectDirPath = "";
@@ -122,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C9D3172D54760E00CF21A2 /* Assets.xcassets in Resources */,
+				22C9D3182D54760E00CF21A2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +218,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C9D31A2D54760E00CF21A2 /* AppDelegate.swift in Sources */,
+				22C9D31B2D54760E00CF21A2 /* SceneDelegate.swift in Sources */,
+				22C9D3212D547E6F00CF21A2 /* Coordinator.swift in Sources */,
+				22C9D31C2D54760E00CF21A2 /* ViewController.swift in Sources */,
+				22C9D31D2D54760E00CF21A2 /* Gliding_iOS.xcdatamodeld in Sources */,
+				22C9D31F2D54763000CF21A2 /* UIViewController+.swift in Sources */,
+				22C9D3262D54BF5600CF21A2 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22C9D30F2D54760E00CF21A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C9D30E2D54760E00CF21A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22C9D2FC2D5472F600CF21A2 /* Debug */ = {
@@ -143,15 +247,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Gliding-iOS/Gliding_iOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Gliding-iOS/SupportFiles/Gliding_iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UUYBHY988H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Gliding-iOS/Info.plist";
+				INFOPLIST_FILE = "Gliding-iOS/SupportFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -172,15 +275,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Gliding-iOS/Gliding_iOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Gliding-iOS/SupportFiles/Gliding_iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UUYBHY988H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Gliding-iOS/Info.plist";
+				INFOPLIST_FILE = "Gliding-iOS/SupportFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +439,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		225200FC2D58B63F0008E597 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		225201012D58B6BF0008E597 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		225200FD2D58B63F0008E597 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 225200FC2D58B63F0008E597 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		225200FF2D58B63F0008E597 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 225200FC2D58B63F0008E597 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		225201022D58B6BF0008E597 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 225201012D58B6BF0008E597 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		225201042D58B6BF0008E597 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 225201012D58B6BF0008E597 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		225201062D58B6BF0008E597 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 225201012D58B6BF0008E597 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		22C9D3122D54760E00CF21A2 /* Gliding_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22C9D3162D54760E00CF21A2 /* Gliding_iOS.xcdatamodel */,
+			);
+			currentVersion = 22C9D3162D54760E00CF21A2 /* Gliding_iOS.xcdatamodel */;
+			path = Gliding_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 22C9D2DC2D5472F400CF21A2 /* Project object */;
 }
