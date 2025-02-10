@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		225200FE2D58B63F0008E597 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 225200FD2D58B63F0008E597 /* SnapKit */; };
-		225201002D58B63F0008E597 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 225200FF2D58B63F0008E597 /* SnapKit-Dynamic */; };
 		225201032D58B6BF0008E597 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 225201022D58B6BF0008E597 /* RxCocoa */; };
 		225201052D58B6BF0008E597 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 225201042D58B6BF0008E597 /* RxRelay */; };
 		225201072D58B6BF0008E597 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 225201062D58B6BF0008E597 /* RxSwift */; };
@@ -69,7 +68,6 @@
 				225200FE2D58B63F0008E597 /* SnapKit in Frameworks */,
 				225201072D58B6BF0008E597 /* RxSwift in Frameworks */,
 				225201052D58B6BF0008E597 /* RxRelay in Frameworks */,
-				225201002D58B63F0008E597 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +225,6 @@
 			name = "Gliding-iOS";
 			packageProductDependencies = (
 				225200FD2D58B63F0008E597 /* SnapKit */,
-				225200FF2D58B63F0008E597 /* SnapKit-Dynamic */,
 				225201022D58B6BF0008E597 /* RxCocoa */,
 				225201042D58B6BF0008E597 /* RxRelay */,
 				225201062D58B6BF0008E597 /* RxSwift */,
@@ -548,11 +545,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 225200FC2D58B63F0008E597 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		225200FF2D58B63F0008E597 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 225200FC2D58B63F0008E597 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 		225201022D58B6BF0008E597 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
