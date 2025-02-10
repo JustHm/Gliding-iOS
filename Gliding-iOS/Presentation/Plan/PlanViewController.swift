@@ -7,11 +7,18 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 final class PlanViewController: UIViewController {
     var coordinator: PlanCoordinator?
     let viewModel: PlanViewModel
     let disposeBag = DisposeBag()
+    
+    let planListView = PlanListView()
+    lazy var addTabBarItem: UIBarButtonItem = {
+        let item = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
+        return item
+    }()
     
     init(viewModel: PlanViewModel) {
         self.viewModel = viewModel
@@ -29,11 +36,13 @@ final class PlanViewController: UIViewController {
     }
     
     private func bind() {
-        
+//        addTabBarItem.rx.tap
+//        planListView.tableView.rx
+//        planListView.searchBar.rx.text
     }
     
     private func configureUI() {
-        
+        navigationItem.rightBarButtonItem = addTabBarItem
     }
 }
 

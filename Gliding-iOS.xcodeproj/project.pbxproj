@@ -21,6 +21,8 @@
 		225201192D58EEAA0008E597 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201182D58EEAA0008E597 /* HomeViewModel.swift */; };
 		2252011B2D58EEBC0008E597 /* PlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252011A2D58EEBC0008E597 /* PlanViewModel.swift */; };
 		2252011D2D58EF820008E597 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252011C2D58EF820008E597 /* ViewModel.swift */; };
+		225201392D59B78B0008E597 /* PlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225201382D59B78B0008E597 /* PlanListView.swift */; };
+		2252013F2D59F0000008E597 /* PlanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252013E2D59F0000008E597 /* PlanListCell.swift */; };
 		22C9D3172D54760E00CF21A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D30D2D54760E00CF21A2 /* Assets.xcassets */; };
 		22C9D3182D54760E00CF21A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D30F2D54760E00CF21A2 /* LaunchScreen.storyboard */; };
 		22C9D31A2D54760E00CF21A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D3072D54760E00CF21A2 /* AppDelegate.swift */; };
@@ -42,6 +44,8 @@
 		225201182D58EEAA0008E597 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		2252011A2D58EEBC0008E597 /* PlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewModel.swift; sourceTree = "<group>"; };
 		2252011C2D58EF820008E597 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		225201382D59B78B0008E597 /* PlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListView.swift; sourceTree = "<group>"; };
+		2252013E2D59F0000008E597 /* PlanListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListCell.swift; sourceTree = "<group>"; };
 		22C9D2E42D5472F400CF21A2 /* Gliding-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gliding-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C9D3072D54760E00CF21A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C9D3082D54760E00CF21A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 			children = (
 				225201142D58ED3D0008E597 /* PlanViewController.swift */,
 				2252011A2D58EEBC0008E597 /* PlanViewModel.swift */,
+				225201412D59F3700008E597 /* Views */,
+				225201402D59F3670008E597 /* Cells */,
 			);
 			path = Plan;
 			sourceTree = "<group>";
@@ -98,6 +104,22 @@
 				225201182D58EEAA0008E597 /* HomeViewModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		225201402D59F3670008E597 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2252013E2D59F0000008E597 /* PlanListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		225201412D59F3700008E597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				225201382D59B78B0008E597 /* PlanListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		22C9D2DB2D5472F400CF21A2 = {
@@ -274,6 +296,7 @@
 				22C9D31B2D54760E00CF21A2 /* SceneDelegate.swift in Sources */,
 				22C9D3212D547E6F00CF21A2 /* Coordinator.swift in Sources */,
 				22C9D31C2D54760E00CF21A2 /* ViewController.swift in Sources */,
+				225201392D59B78B0008E597 /* PlanListView.swift in Sources */,
 				225201112D58DDDE0008E597 /* PlanCoordinator.swift in Sources */,
 				2252011D2D58EF820008E597 /* ViewModel.swift in Sources */,
 				2252010C2D58C42C0008E597 /* TabBarCoordinator.swift in Sources */,
@@ -284,6 +307,7 @@
 				22C9D31F2D54763000CF21A2 /* UIViewController+.swift in Sources */,
 				22C9D3262D54BF5600CF21A2 /* AppCoordinator.swift in Sources */,
 				225201132D58ED350008E597 /* HomeViewController.swift in Sources */,
+				2252013F2D59F0000008E597 /* PlanListCell.swift in Sources */,
 				2252011B2D58EEBC0008E597 /* PlanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
