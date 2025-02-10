@@ -19,6 +19,16 @@ final class PlanViewController: UIViewController {
         let item = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
         return item
     }()
+    private let searchController: UISearchController = {
+        let searchController = UISearchController()
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.hidesNavigationBarDuringPresentation = false
+        searchController.searchBar.placeholder = "검색"
+        searchController.searchBar.showsCancelButton = true
+//        searchController.searchBar.barStyle =
+        return searchController
+    }()
+    var searchBar: UISearchBar { searchController.searchBar }
     
     init(viewModel: PlanViewModel) {
         self.viewModel = viewModel
@@ -43,6 +53,14 @@ final class PlanViewController: UIViewController {
     
     private func configureUI() {
         navigationItem.rightBarButtonItem = addTabBarItem
+        navigationItem.searchController = searchController
+        navigationItem.hidesSearchBarWhenScrolling = false
+        
+        view.addSubview(planListView)
+        
+        planListView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
     }
 }
 

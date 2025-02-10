@@ -9,19 +9,9 @@ import UIKit
 import SnapKit
 
 final class PlanListView: UIView {
-    private let searchController: UISearchController = {
-        let searchController = UISearchController()
-        searchController.obscuresBackgroundDuringPresentation = false
-//        searchController.hidesNavigationBarDuringPresentation = false
-        searchController.searchBar.placeholder = "검색"
-        searchController.searchBar.showsCancelButton = true
-//        searchController.searchBar.barStyle =
-        return searchController
-    }()
-    var searchBar: UISearchBar { searchController.searchBar }
-    lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .grouped)
-        return tableView
+    lazy var collectionView: UICollectionView = {
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: .init())
+        return collectionView
     }()
     
     init() {
@@ -34,9 +24,8 @@ final class PlanListView: UIView {
     }
     
     private func setupLayout() {
-        tableView.tableHeaderView = searchBar
-        addSubview(tableView)
-        tableView.snp.makeConstraints {
+        addSubview(collectionView)
+        collectionView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
     }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class PlanListCell: UITableViewCell {
+final class PlanListCell: UICollectionViewCell {
     lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = .preferredFont(forTextStyle: .title1)

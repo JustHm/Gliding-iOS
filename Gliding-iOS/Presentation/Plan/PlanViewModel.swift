@@ -6,9 +6,12 @@
 //
 
 import RxSwift
+import RxCocoa
 
 final class PlanViewModel: ViewModel {
     struct Input {
+        let searchQuery: ControlProperty<String>
+        let addButtonTap: ControlEvent<Void>
         
     }
     struct Output {
